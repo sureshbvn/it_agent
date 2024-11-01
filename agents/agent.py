@@ -3,6 +3,7 @@ from prompts.prompts import agent_system_prompt_template
 from models.openai_models import OpenAIModel
 from tools.laptop_issuance import  laptop_issuance
 from tools.document_checklist import documentation_checklist
+from tools.laptop_preference import laptop_preference
 from toolbox.toolbox import ToolBox
 
 
@@ -87,7 +88,7 @@ class Agent:
 # Example usage
 if __name__ == "__main__":
 
-    tools = [laptop_issuance, documentation_checklist]
+    tools = [laptop_issuance, documentation_checklist, laptop_preference]
 
 
     # Uncoment below to run with OpenAI
