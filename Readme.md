@@ -1,4 +1,5 @@
-# Project Title
+# Eightfold AI IT Agent
+
 
 This project is a Python-based agent that utilizes OpenAI's GPT-3.5-turbo model to interact with users and perform specific tasks using predefined tools. The agent can handle various prompts and execute corresponding tools to provide responses.
 
